@@ -35,7 +35,7 @@
                     </div>
                     <div class="ps-4">
                         <h5 class="mb-2">Email to get free quote</h5>
-                        <h4 class="text-primary mb-0">farahalifarah30@gmail.com</h4>
+                        <h4 class="text-primary mb-0"><a href="mailto:Info@facleaners.ca">Info@facleaners.ca</a></h4>
                     </div>
                 </div>
             </div>
