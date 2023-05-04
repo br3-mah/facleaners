@@ -287,8 +287,9 @@
     <a href="#" class="btn btn-lg btn-primary btn-lg-square rounded back-to-top"><i class="bi bi-arrow-up"></i></a>
 
     <div id="facleaners-quote" class="modal-window">
-        <a href="#" title="Close" class="modal-close">Close</a>
+        
         <div class="pt-2">
+            <a href="#" title="Close" class="modal-close">Close</a>
             <h5 class="py-3">Receive a free quote</h5>
             <form action="{{route('send-message')}}" method="post">
                 @csrf
