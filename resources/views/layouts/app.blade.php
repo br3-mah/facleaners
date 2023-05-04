@@ -222,7 +222,7 @@
                             </div>
                             <div class="d-flex mb-2">
                                 <i class="bi bi-envelope-open text-primary me-2"></i>
-                                <a href="mailto:info@facleaners.ca" class="mb-0">info@facleaners.ca</a>
+                                <a href="mailto:Info@facleaners.ca" class="mb-0">Info@facleaners.ca</a>
                             </div>
                             <div class="d-flex mb-2">
                                 <i class="bi bi-telephone text-primary me-2"></i>
