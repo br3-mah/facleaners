@@ -31,7 +31,7 @@ class ContactUsController extends Controller
     {
         $data = $request->toArray();
         // $to_email = 'nyeleti.bremah@gmail.com';
-        $to_email = 'farahalifarah30@gmail.com';
+        $to_email = 'info@facleaners.ca';
 
         // replace with the content of the email
         $content = [

@@ -222,11 +222,11 @@
                             </div>
                             <div class="d-flex mb-2">
                                 <i class="bi bi-envelope-open text-primary me-2"></i>
-                                <p class="mb-0">info@facleaners.ca</p>
+                                <a href="mailto:info@facleaners.ca" class="mb-0">info@facleaners.ca</a>
                             </div>
                             <div class="d-flex mb-2">
                                 <i class="bi bi-telephone text-primary me-2"></i>
-                                <p class="mb-0">647 687 50420</p>
+                                <p class="mb-0">647 687 5042</p>
                             </div>
                             <div class="d-flex mt-4">
                                 <a class="btn btn-primary btn-square me-2" href="#"><i class="fab fa-twitter fw-normal"></i></a>
@@ -271,7 +271,7 @@
             <div class="row justify-content-end">
                 <div class="col-lg-8 col-md-6">
                     <div class="d-flex align-items-center justify-content-center" style="height: 75px;">
-                        <p class="mb-0">&copy; <a class="text-white border-bottom" href="#">facleaners | 2023</a>. All Rights Reserved. 
+                        <p class="mb-0">&copy; <a class="text-white border-bottom" href="#">facleaners - 2023</a>. All Rights Reserved. 
 						
 						<!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
 						{{-- Designed by <a class="text-white border-bottom" href="https://htmlcodex.com">HTML Codex</a></p> --}}
