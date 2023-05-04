@@ -24,3 +24,5 @@ Route::get('/about-us', [App\Http\Controllers\AboutUsController::class, 'index']
 Route::get('/contact-us', [App\Http\Controllers\ContactUsController::class, 'index'])->name('contact-us');
 Route::get('/our-services', [App\Http\Controllers\ServicesController::class, 'index'])->name('services');
 Route::post('/sending-message', [App\Http\Controllers\ContactUsController::class, 'store'])->name('send-message');
+Route::get('/successfully-sent', [App\Http\Controllers\SuccessController::class, 'success'])->name('success');
+Route::get('/sending-failed', [App\Http\Controllers\SuccessController::class, 'failed'])->name('failed');

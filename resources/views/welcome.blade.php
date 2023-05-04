@@ -6,9 +6,9 @@
             <img class="w-100" src="{{ asset('public/img/carousel-1.jpg')}}" alt="Image">
             <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
                 <div class="p-3" style="max-width: 900px;">
-                    <h5 class="text-white text-uppercase mb-3 animated slideInDown">Creative & Innovative</h5>
+                    <h5 class="text-white text-uppercase mb-3 animated slideInDown">Let us do the dirty work for you</h5>
                     <h1 class="display-1 text-white mb-md-4 animated zoomIn">Healthy Homes Start with Clean Spaces</h1>
-                    <a href="quote.html" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Free Quote</a>
+                    <a  href="#facleaners-quote" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Free Quote</a>
                     <a href="" class="btn btn-outline-light py-md-3 px-md-5 animated slideInRight">Contact Us</a>
                 </div>
             </div>
@@ -17,10 +17,10 @@
             <img class="w-100" src="{{ asset('public/img/carousel-2.jpg')}}" alt="Image">
             <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
                 <div class="p-3" style="max-width: 900px;">
-                    <h5 class="text-white text-uppercase mb-3 animated slideInDown">Creative & Innovative</h5>
+                    <h5 class="text-white text-uppercase mb-3 animated slideInDown">Clean space, happy place</h5>
                     <h1 class="display-1 text-white mb-md-4 animated zoomIn">Cleaning That Fits Your Schedule</h1>
-                    <a href="quote.html" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Free Quote</a>
-                    <a href="{{route('contact-us')}}" class="btn btn-outline-light py-md-3 px-md-5 animated slideInRight">Contact Us</a>
+                    <a onclick="startRating()" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Free Quote</a>
+                    <a href="#facleaners-quote" class="btn btn-outline-light py-md-3 px-md-5 animated slideInRight">Contact Us</a>
                 </div>
             </div>
         </div>
@@ -57,7 +57,7 @@
                     </div>
                     <div class="ps-4">
                         <h5 class="text-primary mb-0">Projects Done</h5>
-                        <h1 class="mb-0" data-toggle="counter-up">24</h1>
+                        <h1 class="mb-0" data-toggle="counter-up">17</h1>
                     </div>
                 </div>
             </div>
@@ -91,11 +91,14 @@
                     At FA Cleaners, we are committed to providing high-quality cleaning services to our customers. Our team of experienced and dedicated cleaners are passionate about what they do and take pride in delivering outstanding results. We believe that a clean environment is essential to creating a healthy and happy home or workspace. That's why we go above and beyond to ensure that every surface is thoroughly cleaned, sanitized, and free from dirt and germs.</p>
                 <div class="row g-0 mb-3">
                     <div class="col-sm-6 wow zoomIn" data-wow-delay="0.2s">
-                        <h5 class="mb-3"><i class="fa fa-check text-primary me-3"></i>Award Winning</h5>
+                        <h5 class="mb-3"><i class="fa fa-check text-primary me-3"></i>Satisfaction Guarantee</h5>
+                        <h5 class="mb-3"><i class="fa fa-check text-primary me-3"></i>Flexible scheduling options</h5>
                         <h5 class="mb-3"><i class="fa fa-check text-primary me-3"></i>Professional Staff</h5>
+                        
                     </div>
                     <div class="col-sm-6 wow zoomIn" data-wow-delay="0.4s">
                         <h5 class="mb-3"><i class="fa fa-check text-primary me-3"></i>24/7 Support</h5>
+                        <h5 class="mb-3"><i class="fa fa-check text-primary me-3"></i>Eco-friendly cleaning products and methods</h5>
                         <h5 class="mb-3"><i class="fa fa-check text-primary me-3"></i>Fair Prices</h5>
                     </div>
                 </div>
@@ -108,11 +111,11 @@
                         <h4 class="text-primary mb-0">647 687 5042</h4>
                     </div>
                 </div>
-                <a href="quote.html" class="btn btn-primary py-3 px-5 mt-3 wow zoomIn" data-wow-delay="0.9s">Request A Quote</a>
+                <a href="#facleaners-quote" class="btn btn-primary py-3 px-5 mt-3 wow zoomIn" data-wow-delay="0.9s">Request A Quote</a>
             </div>
             <div class="col-lg-5" style="min-height: 500px;">
                 <div class="position-relative h-100">
-                    <img class="position-absolute w-100 h-100 rounded wow zoomIn" data-wow-delay="0.9s" src="{{ asset('public/img/about.jpg') }}" style="object-fit: cover;">
+                    <img class="position-absolute w-100 h-100 rounded wow zoomIn" data-wow-delay="0.9s" src="{{ asset('public/img/service.jpg') }}" style="object-fit: cover;">
                 </div>
             </div>
         </div>
@@ -136,7 +139,7 @@
                             <i class="fa fa-cubes text-white"></i>
                         </div>
                         <h4>It’s That Easy</h4>
-                        <p class="mb-0">Select the number of bedrooms, pick your date & time, and FA Cleaners Cleaning will be there for you!</p>
+                        <p class="mb-0">Click on Get Quote, select a type of service, specify date and time submit the form, and FA Cleaners Cleaning will be there for you!</p>
                     </div>
                     <div class="col-12 wow zoomIn" data-wow-delay="0.6s">
                         <div class="bg-primary rounded d-flex align-items-center justify-content-center mb-3" style="width: 60px; height: 60px;">
@@ -149,7 +152,7 @@
             </div>
             <div class="col-lg-4  wow zoomIn" data-wow-delay="0.9s" style="min-height: 350px;">
                 <div class="position-relative h-100">
-                    <img class="position-absolute w-100 h-100 rounded wow zoomIn" data-wow-delay="0.1s" src="{{ asset('public/img/feature.jpg') }}" style="object-fit: cover;">
+                    <img class="position-absolute w-100 h-100 rounded wow zoomIn" data-wow-delay="0.1s" src="{{ asset('public/img/us.jpg') }}" style="object-fit: cover;">
                 </div>
             </div>
             <div class="col-lg-4">
@@ -189,9 +192,9 @@
                     <div class="service-icon">
                         <i class="fa fa-shield-alt text-white"></i>
                     </div>
-                    <h4 class="mb-3 text-info">Office Cleaning</h4>
+                    <h4 class="mb-3 bg-white" style="color:#043c69; padding:4%; border-radius:2%; opacity:0.7">Office<br>Cleaning</h4>
                     <p class="m-0">Get your office cleaned by professional cleaners in the Toronto area.</p>
-                    <a class="btn btn-lg btn-primary rounded" href="">
+                    <a class="btn btn-lg btn-primary rounded" href="{{ route('services')}}">
                         <i class="bi bi-arrow-right"></i>
                     </a>
                 </div>
@@ -201,9 +204,9 @@
                     <div class="service-icon">
                         <i class="fa fa-chart-pie text-white"></i>
                     </div>
-                    <h4 class="mb-3 text-info">Restaurant Cleaning</h4>
+                    <h4 class="mb-3 bg-white" style="color:#043c69; padding:4%; border-radius:2%; opacity:0.7">Restaurant<br>Cleaning</h4>
                     <p class="m-0">The best cleaning solution for restaurant spaces.</p>
-                    <a class="btn btn-lg btn-primary rounded" href="">
+                    <a class="btn btn-lg btn-primary rounded" href="{{ route('services')}}">
                         <i class="bi bi-arrow-right"></i>
                     </a>
                 </div>
@@ -213,9 +216,9 @@
                     <div class="service-icon">
                         <i class="fa fa-code text-white"></i>
                     </div>
-                    <h4 class="mb-3 text-info">Condo Buildings Cleaning</h4>
+                    <h4 class="mb-3 bg-white" style="color:#043c69; padding:4%; border-radius:2%; opacity:0.7">Condo Buildings Cleaning</h4>
                     <p class="m-0">Book your condo for a once-off or regular cleaning.</p>
-                    <a class="btn btn-lg btn-primary rounded" href="">
+                    <a class="btn btn-lg btn-primary rounded" href="{{ route('services')}}">
                         <i class="bi bi-arrow-right"></i>
                     </a>
                 </div>
@@ -225,21 +228,21 @@
                     <div class="service-icon">
                         <i class="fab fa-android text-white"></i>
                     </div>
-                    <h4 class="mb-3 text-info">Gym Cleaning Cleaning</h4>
+                    <h4 class="mb-3 bg-white" style="color:#043c69; padding:4%; border-radius:2%; opacity:0.7">Gym Cleaning Cleaning</h4>
                     <p class="m-0">Give your gym a breeze with our cleaning services</p>
-                    <a class="btn btn-lg btn-primary rounded" href="">
+                    <a class="btn btn-lg btn-primary rounded" href="{{ route('services')}}">
                         <i class="bi bi-arrow-right"></i>
                     </a>
                 </div>
             </div>
             <div class="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.6s">
-                <div style="background-image: url('{{ asset("public/img/retail.jpg") }}'); color:#fff" class="service-item bg-light rounded d-flex flex-column align-items-center justify-content-center text-center">
+                <div style="background-image: url('{{ asset("public/img/retail.jpg") }}'); background-size:fit; color:#fff" class="service-item bg-light rounded d-flex flex-column align-items-center justify-content-center text-center">
                     <div class="service-icon">
                         <i class="fa fa-search text-white"></i>
                     </div>
-                    <h4 class="mb-3 text-info">Retail Stores Cleaning</h4>
+                    <h4 class="mb-3 bg-white" style="color:#043c69; padding:4%; border-radius:2%; opacity:0.7">Retail Stores Cleaning</h4>
                     <p class="m-0">Our team of experienced cleaners make sure your store is clean, sanitized, and ready for business.</p>
-                    <a class="btn btn-lg btn-primary rounded" href="">
+                    <a class="btn btn-lg btn-primary rounded" href="{{ route('services')}}">
                         <i class="bi bi-arrow-right"></i>
                     </a>
                 </div>
@@ -247,7 +250,7 @@
             <div class="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.9s">
                 <div class="position-relative bg-primary rounded h-100 d-flex flex-column align-items-center justify-content-center text-center p-5">
                     <h3 class="text-white mb-3">Call Us For Quote</h3>
-                    <p class="text-white mb-3">Clita ipsum magna kasd rebum at ipsum amet dolor justo dolor est magna stet eirmod</p>
+                    <p class="text-white mb-3">Looking for a cleaning service that delivers quality and affordability? Contact us today for a free quote and experience our top-notch service firsthand.</p>
                     <h2 class="text-white mb-0">647 687 5042</h2>
                 </div>
             </div>
@@ -406,44 +409,44 @@
                 <div class="d-flex align-items-center border-bottom pt-5 pb-4 px-5">
                     <img class="img-fluid rounded" src="{{ asset('public/img/testimonial-1.jpg')}}" style="width: 60px; height: 60px;" >
                     <div class="ps-4">
-                        <h4 class="text-primary mb-1">Bremah Nyeleti</h4>
-                        <small class="text-uppercase">ICT officer</small>
+                        <h4 class="text-primary mb-1">Mary Jane</h4>
+                        <small class="text-uppercase">Nurse</small>
                     </div>
                 </div>
                 <div class="pt-4 pb-5 px-5">
                     The cleaners from FA Cleaners did an amazing job cleaning my home. They are trustworthy, reliable, and definitely go the extra mile to make your home sparkling clean. So nice
-to have friends over after work and know my house will be clean!
+                    to have friends over after work and know my house will be clean!
                 </div>
             </div>
             <div class="testimonial-item bg-light my-4">
                 <div class="d-flex align-items-center border-bottom pt-5 pb-4 px-5">
                     <img class="img-fluid rounded" src="{{ asset('public/img/testimonial-2.jpg')}}" style="width: 60px; height: 60px;" >
                     <div class="ps-4">
-                        <h4 class="text-primary mb-1">Sampa Nkonde</h4>
+                        <h4 class="text-primary mb-1">Peter Jonathan</h4>
                         <small class="text-uppercase">Chef</small>
                     </div>
                 </div>
                 <div class="pt-4 pb-5 px-5">
-                    My appartment was a bit messy after my trip but the cleaners from Picasso cleaning did an excellent job.I will definitely book other jobs with them.
+                    My appartment was a bit messy after my trip but the cleaners from FA Cleaners cleaning did an excellent job.I will definitely book other jobs with them.
                 </div>
             </div>
             <div class="testimonial-item bg-light my-4">
                 <div class="d-flex align-items-center border-bottom pt-5 pb-4 px-5">
                     <img class="img-fluid rounded" src="{{asset('public/img/testimonial-3.jpg')}}" style="width: 60px; height: 60px;" >
                     <div class="ps-4">
-                        <h4 class="text-primary mb-1">Jack Chanda</h4>
+                        <h4 class="text-primary mb-1">Jack Krestenesen</h4>
                         <small class="text-uppercase">Teacher</small>
                     </div>
                 </div>
                 <div class="pt-4 pb-5 px-5">
-                    Best cleaning service in the GTA! I highly recommend Picasso Cleaning to anyone looking to have their place cleaned for a fair price!
+                    Best cleaning service in the GTA! I highly recommend FA Cleaners Cleaning to anyone looking to have their place cleaned for a fair price!
                 </div>
             </div>
             <div class="testimonial-item bg-light my-4">
                 <div class="d-flex align-items-center border-bottom pt-5 pb-4 px-5">
                     <img class="img-fluid rounded" src="{{ asset("public/img/testimonial-4.jpg")}}" style="width: 60px; height: 60px;" >
                     <div class="ps-4">
-                        <h4 class="text-primary mb-1">Lucas Tembo</h4>
+                        <h4 class="text-primary mb-1">Miriam Minchenkovic</h4>
                         <small class="text-uppercase">Shop owner</small>
                     </div>
                 </div>
@@ -522,7 +525,7 @@ to have friends over after work and know my house will be clean!
 <!-- Team End -->
 
 <!-- Vendor Start -->
-<div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
+{{-- <div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
     <div class="container py-5 mb-5">
         <div class="bg-white">
             <div class="owl-carousel vendor-carousel">
@@ -538,7 +541,7 @@ to have friends over after work and know my house will be clean!
             </div>
         </div>
     </div>
-</div>
+</div> --}}
 <!-- Vendor End -->
 
 @endsection

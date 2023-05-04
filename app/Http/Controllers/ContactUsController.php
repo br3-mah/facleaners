@@ -36,18 +36,16 @@ class ContactUsController extends Controller
         // replace with the content of the email
         $content = [
             'subject' => $data['subject'],
-            'name' => $data['names'],
+            'names' => $data['names'],
             'email' =>  $data['email'],
             'message' =>  $data['message'],
         ];
-
-        // // send the email
+        
     try {
         Mail::to($to_email)->send(new ContactEmail($content));
-        return redirect()->back();
+        return redirect()->route('success');
     } catch (\Throwable $th) {
-        // dd($th);
-        return redirect()->back();
+        return redirect()->route('failed');
     }
     }
 

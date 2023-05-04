@@ -9,17 +9,17 @@ class SuccessController extends Controller
     /**
      * Display a listing of the resource.
      */
-    public function index()
+    public function success()
     {
-        //
+        return view('success');
     }
 
     /**
      * Show the form for creating a new resource.
      */
-    public function create()
+    public function failed()
     {
-        //
+        return view('failed');
     }
 
     /**
