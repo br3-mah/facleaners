@@ -115,7 +115,7 @@
                 <div class="d-inline-flex align-items-center" style="height: 45px;">
                     <small class="me-3 text-light"><i class="fa fa-map-marker-alt me-2"></i>1276 Islington Avenue, M9A3J9, Etobicoke.</small>
                     <small class="me-3 text-light"><i class="fa fa-phone-alt me-2"></i>647 687 5042</small>
-                    <small class="text-light"><i class="fa fa-envelope-open me-2"></i>farahalifarah30@gmail.com</small>
+                    <small class="text-light"><i class="fa fa-envelope-open me-2"></i>Info@facleaners.ca</small>
                 </div>
             </div>
             <div class="col-lg-4 text-center text-lg-end">
