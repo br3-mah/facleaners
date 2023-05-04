@@ -143,9 +143,10 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarCollapse">
                 <div class="navbar-nav ms-auto py-0">
-                    <a href="{{url('/')}}" class="nav-item nav-link active">Home</a>
-                    <a href="{{route('about-us')}}" class="nav-item nav-link">About</a>
-                    <a href="{{route('services')}}" class="nav-item nav-link">Services</a>
+                    
+                    <a href="{{url('/')}}" class="nav-item nav-link {{ request()->is('welcome') ? 'active' : '' }}">Home</a>
+                    <a href="{{route('about-us')}}" class="nav-item nav-link {{ request()->is('about-us') ? 'active' : '' }}">About</a>
+                    <a href="{{route('services')}}" class="nav-item nav-link {{ request()->is('our-services') ? 'active' : '' }}">Services</a>
                  
                     {{-- <div class="nav-item dropdown">
                         <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
@@ -157,7 +158,7 @@
                             <a href="quote.html" class="dropdown-item">Free Quote</a>
                         </div>
                     </div> --}}
-                    <a href="{{route('contact-us')}}" class="nav-item nav-link">Contact</a>
+                    <a href="{{route('contact-us')}}" class="nav-item nav-link {{ request()->is('contact-us') ? 'active' : '' }}">Contact</a>
                 </div>
                 <butaton type="button" class="btn text-primary ms-3" data-bs-toggle="modal" data-bs-target="#searchModal"><i class="fa fa-search"></i></butaton>
                 <a href="#facleaners-quote" class="btn btn-primary py-2 px-4 ms-3">Get Quote</a>
