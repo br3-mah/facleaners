@@ -42,7 +42,7 @@
             </div>
             <div class="col-lg-5" style="min-height: 500px;">
                 <div class="position-relative h-100">
-                    <img class="position-absolute w-100 h-100 rounded wow zoomIn" data-wow-delay="0.9s" src="img/about.jpg" style="object-fit: cover;">
+                    <img class="position-absolute w-100 h-100 rounded wow zoomIn" data-wow-delay="0.9s" src="public/img/about.jpg" style="object-fit: cover;">
                 </div>
             </div>
         </div>
@@ -52,7 +52,7 @@
 
 
 <!-- Team Start -->
-<div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
+{{-- <div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
     <div class="container py-5">
         <div class="section-title text-center position-relative pb-3 mb-5 mx-auto" style="max-width: 600px;">
             <h5 class="fw-bold text-primary text-uppercase">Team Members</h5>
@@ -112,6 +112,6 @@
             </div>
         </div>
     </div>
-</div>
+</div> --}}
 
 @endsection

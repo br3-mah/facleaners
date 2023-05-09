@@ -36,7 +36,45 @@
         <span class="visually-hidden">Next</span>
     </button>
 </div>
-
+<div class="container-fluid facts py-5 pt-lg-0">
+    <div class="container py-5 pt-lg-0">
+        <div class="row gx-0">
+            <div class="col-lg-4 wow zoomIn" data-wow-delay="0.1s">
+                <div class="bg-primary shadow d-flex align-items-center justify-content-center p-4" style="height: 150px;">
+                    <div class="bg-white d-flex align-items-center justify-content-center rounded mb-2" style="width: 60px; height: 60px;">
+                        <i class="fa fa-users text-primary"></i>
+                    </div>
+                    <div class="ps-4">
+                        <h5 class="text-white mb-0">Happy Clients</h5>
+                        <h1 class="text-white mb-0" data-toggle="counter-up">11</h1>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 wow zoomIn" data-wow-delay="0.3s">
+                <div class="bg-light shadow d-flex align-items-center justify-content-center p-4" style="height: 150px;">
+                    <div class="bg-primary d-flex align-items-center justify-content-center rounded mb-2" style="width: 60px; height: 60px;">
+                        <i class="fa fa-check text-white"></i>
+                    </div>
+                    <div class="ps-4">
+                        <h5 class="text-primary mb-0">Projects Done</h5>
+                        <h1 class="mb-0" data-toggle="counter-up">17</h1>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 wow zoomIn" data-wow-delay="0.6s">
+                <div class="bg-primary shadow d-flex align-items-center justify-content-center p-4" style="height: 150px;">
+                    <div class="bg-white d-flex align-items-center justify-content-center rounded mb-2" style="width: 60px; height: 60px;">
+                        <i class="fa fa-award text-primary"></i>
+                    </div>
+                    <div class="ps-4">
+                        <h5 class="text-white mb-0">Team Members</h5>
+                        <h1 class="text-white mb-0" data-toggle="counter-up">28</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 <!-- Facts Start -->
 
 
@@ -360,7 +398,65 @@
 
 
 <!-- Testimonial Start -->
-
+<div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
+    <div class="container py-5">
+        <div class="section-title text-center position-relative pb-3 mb-4 mx-auto" style="max-width: 600px;">
+            <h5 class="fw-bold text-primary text-uppercase">Testimonial</h5>
+            <h1 class="mb-0">What Our Clients Say About Our Cleaning Services</h1>
+        </div>
+        <div class="owl-carousel testimonial-carousel wow fadeInUp" data-wow-delay="0.6s">
+            <div class="testimonial-item bg-light my-4">
+                <div class="d-flex align-items-center border-bottom pt-5 pb-4 px-5">
+                    <img class="img-fluid rounded" src="{{ asset('public/img/testimonial-1.jpg')}}" style="width: 60px; height: 60px;" >
+                    <div class="ps-4">
+                        <h4 class="text-primary mb-1">Mary Jane</h4>
+                        <small class="text-uppercase">Nurse</small>
+                    </div>
+                </div>
+                <div class="pt-4 pb-5 px-5">
+                    The cleaners from FA Cleaners did an amazing job cleaning my home. They are trustworthy, reliable, and definitely go the extra mile to make your home sparkling clean. So nice
+                    to have friends over after work and know my house will be clean!
+                </div>
+            </div>
+            <div class="testimonial-item bg-light my-4">
+                <div class="d-flex align-items-center border-bottom pt-5 pb-4 px-5">
+                    <img class="img-fluid rounded" src="{{ asset('public/img/testimonial-2.jpg')}}" style="width: 60px; height: 60px;" >
+                    <div class="ps-4">
+                        <h4 class="text-primary mb-1">Peter Jonathan</h4>
+                        <small class="text-uppercase">Chef</small>
+                    </div>
+                </div>
+                <div class="pt-4 pb-5 px-5">
+                    My appartment was a bit messy after my trip but the cleaners from FA Cleaners cleaning did an excellent job.I will definitely book other jobs with them.
+                </div>
+            </div>
+            <div class="testimonial-item bg-light my-4">
+                <div class="d-flex align-items-center border-bottom pt-5 pb-4 px-5">
+                    <img class="img-fluid rounded" src="{{asset('public/img/testimonial-3.jpg')}}" style="width: 60px; height: 60px;" >
+                    <div class="ps-4">
+                        <h4 class="text-primary mb-1">Jack Krestenesen</h4>
+                        <small class="text-uppercase">Teacher</small>
+                    </div>
+                </div>
+                <div class="pt-4 pb-5 px-5">
+                    Best cleaning service in the GTA! I highly recommend FA Cleaners Cleaning to anyone looking to have their place cleaned for a fair price!
+                </div>
+            </div>
+            <div class="testimonial-item bg-light my-4">
+                <div class="d-flex align-items-center border-bottom pt-5 pb-4 px-5">
+                    <img class="img-fluid rounded" src="{{ asset("public/img/testimonial-4.jpg")}}" style="width: 60px; height: 60px;" >
+                    <div class="ps-4">
+                        <h4 class="text-primary mb-1">Miriam Minchenkovic</h4>
+                        <small class="text-uppercase">Shop owner</small>
+                    </div>
+                </div>
+                <div class="pt-4 pb-5 px-5">
+                    This team is very professional and delivers top class cleaning services.
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 <!-- Testimonial End -->
 
 
